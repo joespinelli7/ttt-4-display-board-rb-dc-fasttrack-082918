@@ -1,6 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-def display_board
+def display_board(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   separator = "|"
   dash = "-----------"
@@ -11,4 +11,4 @@ def display_board
   puts "#{board[6]}#{separator}#{board[7]}#{separator}#{board[8]}"
 end
 
-display_board(board)  
+display_board(board)
